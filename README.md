@@ -2,4 +2,4 @@
 
 deanframe.com
 
-My personal website, still just a placeholder for now. Will be updated in the future.
+My personal website, currently under construction using Bootstrap
