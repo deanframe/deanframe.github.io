@@ -2,4 +2,4 @@
 
 deanframe.com
 
-My personal website, currently under construction using Bootstrap, Three.js
+My personal website, currently under construction.
