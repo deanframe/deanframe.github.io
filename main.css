@@ -1,0 +1,28 @@
+@font-face {
+  font-family: opensans;
+  src: url(fonts/opensans-light.ttf);
+}
+
+html {
+  font-family: opensans;
+}
+
+#background {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  border: none;
+  pointer-events: none;
+}
+
+#title {
+  text-align: center;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0px;
+}
