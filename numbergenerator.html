@@ -11,8 +11,9 @@
   <button onclick="generate()" class="button" type="button">Generate</button>
   <p id="number"></p>
   <script>
+    var members = 11;
     function generate() {
-      var random = Math.floor((Math.random() * 25) + 1);
+      var random = Math.floor((Math.random() * members) + 1);
       document.getElementById("number").innerHTML = "Your random number: " + random.toString();
     }
   </script>
