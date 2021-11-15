@@ -13,6 +13,10 @@ html {
   font-family: opensans;
 }
 
+.headline {
+  text-align: center;
+}
+
 #background {
   position: fixed;
   width: 100vw;
@@ -30,6 +34,7 @@ html {
 }
 
 #button-container {
+  margin-top: 10px;
   text-align: center;
 }
 
@@ -50,8 +55,7 @@ html {
   text-align: center;
   margin-left: 5px;
   margin-right: 10px;
-  
-
+  vertical-align: middle;
 }
 
 .button span {
