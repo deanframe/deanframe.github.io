@@ -2,4 +2,4 @@
 
 deanframe.com
 
-TODO: Add profile picture
+This is "deprecated" and no longer being updated 😅 will create a new website later. 
