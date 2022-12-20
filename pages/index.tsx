@@ -22,7 +22,7 @@ export default function Home() {
             incoming swe @ <Link target='_blank' href='https://www.stripe.com'>stripe</Link>
           </div>
           <div>
-            <Link href='/Resume.pdf' download>resume</Link>
+            <Link target='_blank' href='/Resume.pdf' download>resume</Link>
             {' | '}
             <Link target='_blank' href='https://www.linkedin.com/in/dean-frame'>linkedin</Link>
             {' | '}
