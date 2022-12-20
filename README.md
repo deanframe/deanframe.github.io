@@ -2,4 +2,4 @@
 
 deanframe.com
 
-My personal website, under construction 
+My personal website, under construction using Next.js, React
