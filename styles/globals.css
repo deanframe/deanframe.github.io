@@ -1,0 +1,21 @@
+html {
+  color: #131B23;
+}
+
+a {
+  color: #131B23;
+  text-decoration: none;
+  border-bottom: 2px solid #5433ff;
+}
+
+div + div {
+  margin-top: 8px;
+}
+
+.content-container {
+  padding: 12px;
+}
+
+.title {
+  font-size: 32px;
+}
