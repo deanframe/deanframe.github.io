@@ -11,10 +11,21 @@ div + div {
   margin-top: 8px;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 .content-container {
   padding: 12px;
 }
 
 .title {
   font-size: 32px;
+}
+
+#headshot {
+  margin-bottom: 16px;
+  border-radius: 50%;
 }
