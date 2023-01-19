@@ -32,7 +32,7 @@ export default function Home() {
             </ul>
           </div>
           <div>
-            check out <Link target='_blank' href='https://www.hackbeanpot.com'>hackbeanpot</Link>, a hackathon i{"'"}ve been working on this past year!</div>
+            check out <Link target='_blank' href='https://www.hackbeanpot.com'>hackbeanpot</Link>, a hackathon i{"'"}ve been helping organize this past year!</div>
           <div>
             <Link target='_blank' href='/Resume.pdf' download>resume</Link>
             {' | '}
