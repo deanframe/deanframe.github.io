@@ -1,10 +1,11 @@
 html {
-  color: #131B23;
+  color: #131b23;
+  line-height: 24px;
 }
 
 a {
-  color: #5433ff;
   text-decoration: none;
+  font-weight: 600;
 }
 
 div + div {
@@ -28,4 +29,24 @@ ul {
 #headshot {
   margin-bottom: 16px;
   border-radius: 50%;
+}
+
+.stripe {
+  color: #5433ff;
+}
+
+.notability {
+  color: #4278ff;
+}
+
+.wayfair {
+  color: #7f187f;
+}
+
+.hackbeanpot {
+  color: #395785;
+}
+
+.link {
+  color: #131b23;
 }
