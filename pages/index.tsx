@@ -18,15 +18,7 @@ export default function Home() {
             Dean Frame
           </div>
           <div>
-            incoming software engineer @ <Link className='stripe' target='_blank' href='https://www.stripe.com'>stripe</Link>
-          </div>
-          <div>
-            previous experience:
-            <ul>
-              <li>- intern @ <Link className='stripe' target='_blank' href='https://www.stripe.com'>stripe</Link> - typescript, flow js, react, graphql, grpc, ruby, java</li>
-              <li>- co-op @ <Link className='notability' target='_blank' href='https://www.notability.com'>ginger labs</Link> - typescript, react, next.js, graphql, node.js, postgres</li>
-              <li>- co-op @ <Link className='wayfair' target='_blank' href='https://www.wayfair.com'>wayfair</Link> - javascript, react, php, sql server</li>
-            </ul>
+            software engineer @ <Link className='stripe' target='_blank' href='https://www.stripe.com'>stripe</Link>
           </div>
           <div>
             check out <Link className='hackbeanpot' target='_blank' href='https://www.hackbeanpot.com'>hackbeanpot</Link>, a Boston-area hackathon I helped organize while in school!</div>
