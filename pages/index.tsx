@@ -1,35 +1,30 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Image from 'next/image'
 
 export default function Home() {
   return (
     <>
       <Head>
         <title>Dean Frame</title>
-        <meta name="description" content="Dean Frame's personal website" />
+        <meta name="description" content="Personal Website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.svg" />
       </Head>
       <main>
         <div className='content-container'>
-          <Image id='headshot' src={'/headshot.jpg'} alt='my face!' width={200} height={200} />
-          <div className='title'>
+          <div className='name'>
             Dean Frame
           </div>
-          <div>
-            software engineer @ <Link className='stripe' target='_blank' href='https://www.stripe.com'>stripe</Link>
+          <div className='position'>
+            Software Engineer @ <Link target='_blank' href='https://www.stripe.com'>Stripe</Link>
           </div>
           <div>
-            check out <Link className='hackbeanpot' target='_blank' href='https://www.hackbeanpot.com'>hackbeanpot</Link>, a Boston-area hackathon I helped organize while in school!</div>
+            Check out <Link target='_blank' href='https://www.hackbeanpot.com'>HackBeanpot</Link>, a Boston-area hackathon I helped organize while in school!</div>
           <div>
-            <Link className='link' target='_blank' href='/Resume.pdf' download>resume</Link>
+            <Link target='_blank' href='/Resume.pdf' download>Resume (old)</Link>
             {' | '}
-            <Link className='link' target='_blank' href='https://www.linkedin.com/in/dean-frame'>linkedin</Link>
+            <Link target='_blank' href='https://www.linkedin.com/in/dean-frame'>LinkedIn</Link>
             {' | '}
-            <Link className='link' target='_blank' href='https://www.github.com/deanframe'>github</Link>
-            {' | '}
-            <Link className='link' href='mailto:dacframe@gmail.com'>email</Link>
+            <Link href='mailto:dacframe@gmail.com'>Email me!</Link>
           </div>
         </div>
       </main>

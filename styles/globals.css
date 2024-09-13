@@ -1,52 +1,13 @@
-html {
-  color: #131b23;
-  line-height: 24px;
+.name {
+  font-size: x-large;
 }
 
-a {
-  text-decoration: none;
-  font-weight: 600;
+.position {
+  font-style: italic;
 }
 
-div + div {
-  margin-top: 8px;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-.content-container {
-  padding: 12px;
-}
-
-.title {
-  font-size: 32px;
-}
-
-#headshot {
-  margin-bottom: 16px;
-  border-radius: 50%;
-}
-
-.stripe {
-  color: #5433ff;
-}
-
-.notability {
-  color: #4278ff;
-}
-
-.wayfair {
-  color: #7f187f;
-}
-
-.hackbeanpot {
-  color: #395785;
-}
-
-.link {
-  color: #131b23;
+main {
+  margin: 32px 16px;
+  line-height: 32px;
+  font-family: 'Times New Roman', Times, serif;
 }
