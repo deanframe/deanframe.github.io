@@ -14,8 +14,11 @@ export default function Home() {
           <div className='name'>
             Dean Frame
           </div>
-          <div className='position'>
+          <div>
             Software Engineer @ <Link target='_blank' href='https://www.stripe.com'>Stripe</Link>
+          </div>
+          <div>
+            Right now I'm working on building API keys for AI agents, which gate money movement actions behind configurable human approval rules.
           </div>
           <div>
             Check out <Link target='_blank' href='https://www.hackbeanpot.com'>HackBeanpot</Link>, a Boston-area hackathon I helped organize while in school!</div>
