@@ -11,9 +11,9 @@ export default function Home() {
       </Head>
       <main>
         <div className='content-container'>
-          <div className='name'>
+          <h1 className='name'>
             Dean Frame
-          </div>
+          </h1>
           <div>
             Software Engineer @ <Link target='_blank' href='https://www.stripe.com'>Stripe</Link>
           </div>
